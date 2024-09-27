@@ -1,0 +1,112 @@
+{
+  "uuid": "73df2d9f-5d9f-4406-8791-b9efacfed968",
+  "lastMigration": 28,
+  "name": "Endpoints",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3002,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "d589c0f4-e204-49c9-a988-71babb261563",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "csirtdb",
+      "responses": [
+        {
+          "uuid": "6bf304d1-b72c-4411-9b2b-b9c4170750f8",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "7279f7a2-424e-4f27-909e-2550685e4ea1",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "csirtdb",
+      "responses": [
+        {
+          "uuid": "21271905-67cf-423e-9422-7baaf219e598",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "d589c0f4-e204-49c9-a988-71babb261563"
+    },
+    {
+      "type": "route",
+      "uuid": "7279f7a2-424e-4f27-909e-2550685e4ea1"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
