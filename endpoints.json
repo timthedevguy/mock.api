@@ -4,7 +4,7 @@
   "name": "Endpoints",
   "endpointPrefix": "",
   "latency": 0,
-  "port": 3002,
+  "port": 3033,
   "hostname": "",
   "folders": [],
   "routes": [
